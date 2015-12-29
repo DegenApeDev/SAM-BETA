@@ -23,7 +23,7 @@ class LoginCommand implements CommandExecutor {
     	$fcmd = strtolower($cmd->getName());
     	switch($fcmd){
     		case "login":
-    			if($sender->hasPermission("serverauth.login")){
+    			if($sender->hasPermission("sam.login")){
     				//Player Sender
     				if($sender instanceof Player){
     					$cfg = $this->plugin->getConfig()->getAll();
