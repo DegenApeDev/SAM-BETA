@@ -3,7 +3,7 @@
 namespace sam;
 use pocketmine\plugin\PluginBase;
 use pocketmine\scheduler\PluginTask;
-class sam extends PluginBase {
+class web extends PluginBase {
   public function onEnable(){
     $this->getServer()->getScheduler()->scheduleRepeatingTask(new Task($this), 20);
   }
