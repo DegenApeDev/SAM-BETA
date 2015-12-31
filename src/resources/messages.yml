@@ -1,0 +1,5 @@
+unregistered:
+ message: "This server uses SAM, by Edwardthedog2. You must register at yourwebsite.com, to play."
+
+registered:
+ message: "This server uses SAM, and this name is registered. To play you must login with /login (password) to play.
