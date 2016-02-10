@@ -23,4 +23,4 @@ Not at all. It's still in heavy development stage. If you want to contribute, th
 
 # Do you have any help in creating this?
 
-Yes, lots! I had much help from HotFireyDeath, and wolfdale from the Pocketmine forums. Without their help I'd be way confused right now.
+Yes, lots! I had much help from HotFireyDeath, wolfdale, and HittmanA from the Pocketmine forums. Without their help I'd be way confused right now.
