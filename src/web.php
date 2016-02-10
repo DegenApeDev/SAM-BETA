@@ -1,9 +1,9 @@
 <?php
 // this is the plugin file.
-namespace SAM\web;
+namespace SAM;
 use pocketmine\plugin\PluginBase;
 use pocketmine\scheduler\PluginTask;
-class plugin extends PluginBase {
+class web extends PluginBase {
   public function onEnable(){
     $this->getServer()->getScheduler()->scheduleRepeatingTask(new Task($this), 20);
   }
