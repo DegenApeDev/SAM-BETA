@@ -1,6 +1,6 @@
 name: SAM
 main: SAM\SAM
-version: 1.0.0
+version: 0.0.1
 api: [1.13.0]
 author: Edwardthedog2
 description: Pocketmine auth plugin for signing up at the servers website.
