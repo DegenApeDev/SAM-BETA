@@ -1,6 +1,6 @@
 <?php
 // this is the plugin file.
-namespace SAM\Web;
+namespace SAM;
 use pocketmine\plugin\PluginBase;
 use pocketmine\scheduler\PluginTask;
 class web extends PluginBase {
