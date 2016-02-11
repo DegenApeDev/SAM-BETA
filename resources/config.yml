@@ -1,5 +1,6 @@
 #SAM plugin default configuration
 ---
+prefix: [SAM]
 #Keep logged in by IP
 IPLogin: true
 #Force single authentication
