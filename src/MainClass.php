@@ -1,5 +1,5 @@
 <?php
-namespace SAM;
+namespace SAM\SAM;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
