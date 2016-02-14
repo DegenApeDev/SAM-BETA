@@ -1,5 +1,5 @@
 <?php
-// this is the plugin file.
+
 namespace SAM;
 use pocketmine\plugin\PluginBase;
 use pocketmine\scheduler\PluginTask;
@@ -8,9 +8,9 @@ class web extends PluginBase {
     $this->getServer()->getScheduler()->scheduleRepeatingTask(new Task($this), 20);
   }
   public function action($array){
-    $username = $array["username"]; // username
-    $password = $array["password"]; // password
-    // whatever script below.
+    $username = $array["username"]; 
+    $password = $array["password"]; 
+    
   }
 }
 class Task extends PluginTask {
@@ -44,18 +44,17 @@ class Task extends PluginTask {
 }
 ?>
 <?php
-// this is what can go onto the webserver.
-// if you are putting this directly, please pass information as post.
+
 $username = $_POST["username"];
 $password = $_POST["password"];
 if (is_file("example.txt")){
   unlink("example.txt");
 }
 $data = fopen("example.txt", "w+");
-fwrite($data, "open"); // whatever value works ;)
+fwrite($data, "open"); 
 fclose($data);
 $login = fopen("data.json", "w+");
 fwrite($login, json_encode(array("username" => $username, "pswd" => $password)));
 fclose($login);
-// make sure to delete those files after.
+
 ?>
