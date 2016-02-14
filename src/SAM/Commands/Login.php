@@ -1,6 +1,6 @@
 <?php
 
-namespace SAM\Commands
+namespace SAM\Commands;
 
 use pocketmine\permission\Permission;
 use pocketmine\command\Command;
