@@ -1,3 +1,4 @@
+# No Pull Request's Or Forking
 # SAM
 An auth plugin for Pocketmine-MP that connects to a website.
 
