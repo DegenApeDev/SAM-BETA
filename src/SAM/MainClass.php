@@ -23,7 +23,7 @@ class MainClass extends PluginBase implements Listener{
     {
         $name = $event->getPlayer()->getDisplayName();    
         if ($registered = FALSE){
-        $name->sendMessage("[{$this->getConfig()->get("prefix")}] Hello " . $name . " this server use SAM by EndKingdom. You must register at " .          $url . " to play");  
+        $name->sendMessage("[{$this->getConfig()->get("prefix")}] Hello " . $name . " this server use SAM by NetherKingdom. You must register at " .          $url . " to play");  
     }
     if ($registered = TRUE){
         //$registered is whether or not the player is registered. Set it to retrieve the players info from the $url
