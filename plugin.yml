@@ -1,5 +1,5 @@
 name: SAM
-main: SAM\SAM
+main: SAM\MainClass
 version: 0.0.1
 api: [1.13.0]
 author: EndKingdom
